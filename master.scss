@@ -1,0 +1,16 @@
+@import "./variables";
+@import "./functions";
+
+.basic_properties {
+    @include flexCenter();
+
+}
+
+
+.arena2 {
+    @extend .basic_properties;
+}
+
+.arena3 {
+    @extend .basic_properties;
+}
